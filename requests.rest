@@ -1,0 +1,8 @@
+### Home
+GET http://localhost:3000/
+
+### Get all contacts
+GET http://localhost:3000/contacts
+
+### Get Victor by ID
+GET http://localhost:3000/contacts/6a529069cf9f4f1f8396e7cc
