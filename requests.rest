@@ -6,3 +6,31 @@ GET http://localhost:3000/contacts
 
 ### Get Victor by ID
 GET http://localhost:3000/contacts/6a529069cf9f4f1f8396e7cc
+
+### Create Contact
+POST http://localhost:3000/contacts
+Content-Type: application/json
+
+{
+    "firstName": "Cloud",
+    "lastName": "Strife",
+    "email": "cloud@ff7.com",
+    "favoriteColor": "Blue",
+    "birthday": "1997-08-11"
+}
+
+### Update Contact
+PUT http://localhost:3000/contacts/6a5bb8819fb19133bd3909de
+Content-Type: application/json
+
+{
+    "firstName": "Cloud",
+    "lastName": "Strife",
+    "email": "cloud@avalanche.com",
+    "favoriteColor": "Black",
+    "birthday": "1997-08-11"
+}
+
+### Delete Contact
+DELETE http://localhost:3000/contacts/6a529069cf9f4f1f8396e7cc
+
